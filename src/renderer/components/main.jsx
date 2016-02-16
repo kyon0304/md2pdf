@@ -23,7 +23,7 @@ export class Main extends React.Component {
   }
 
   openGithub () {
-    shell.openExternal('https://github.com/Quramy/electron-jsx-babel-boilerplate');
+    shell.openExternal('https://github.com/kyon0304/md2pdf');
   }
 
   render() {
@@ -51,7 +51,7 @@ export class Main extends React.Component {
         <div className="footer">
           <p>
             <img src="../assets/images/electron.svg" alt="" width="16px"></img>
-            Provided by <a href="#" onClick={this.openGithub}>electron-jsx-babel-boilerplate</a> with <span className="glyphicon glyphicon-heart"></span>
+            Provided by <a href="#" onClick={this.openGithub}>md2pdf</a> with <span className="glyphicon glyphicon-heart"></span>
           </p>
         </div>
       </div>
