@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <title>Electron App</title>
-<link rel="stylesheet" href="app.css">
+<!--hack for SaveAs not defined, see http://stackoverflow.com/a/22533181/1196640-->
+<script type="text/javascript" src="../../bower_components/file-saver.js/FileSaver.js"></script>
 <!-- build:css ../styles/app.css -->
 <!-- inject:css -->
 <!-- endinject -->
