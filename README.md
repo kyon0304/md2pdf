@@ -1,10 +1,10 @@
-1. How to run
+### How to run
 
 ```bash
 gulp serve
 ```
 
-2. used lib
+### used libs
 
 * [boilerplate](https://github.com/Quramy/electron-jsx-babel-boilerplate)
 * [react-md-editor](https://github.com/JedWatson/react-md-editor)
@@ -12,7 +12,7 @@ gulp serve
 
 all thanks to them
 
-3. TODO
+### TODO
 
 * editor size change according to window size
 * preivew of pdf
